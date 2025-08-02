@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Thumbnail Image Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 30px;
+            background-color: #f9f9f9;
+            text-align: center;
+        }
+        h1 {
+            color: #333;
+            margin-bottom: 20px;
+        }
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+        }
+        .gallery a {
+            border: 2px solid #ddd;
+            padding: 5px;
+            background-color: white;
+            display: inline-block;
+            transition: border-color 0.3s ease;
+        }
+        .gallery a:hover {
+            border-color: #0077cc;
+        }
+        .gallery img {
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Thumbnail Image Gallery</h1>
+
+    <div class="gallery">
+        <!-- Thumbnail 1 -->
+        <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Ffliki.ai%2Fblog%2Fhow-to-make-a-thumbnail&psig=AOvVaw28BSroQ-OWjIjeanaA4CU_&ust=1754206207564000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCMjGnMTN644DFQAAAAAdAAAAABAK" target="_blank" title="Image 1 Full Size">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR9zOGcuI9vSzATrKTCoudSLSY36LWLrtU-xA&s" alt="Thumbnail 1" />
+        </a>
+
+        <!-- Thumbnail 2 -->
+        <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Flickd.co%2Fblog%2Fcontent-tutorials%2Fhow-to-create-a-good-youtube-thumbnail&psig=AOvVaw28BSroQ-OWjIjeanaA4CU_&ust=1754206207564000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCMjGnMTN644DFQAAAAAdAAAAABAV" target="_blank" title="Image 2 Full Size">
+            <img src="https://lickd.co/wp-content/uploads/2022/11/Canva-YouTube-Thumbnail-creator.jpeg" alt="Thumbnail 2" />
+        </a>
+
+        <!-- Thumbnail 3 -->
+        <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fstock.adobe.com%2Fsearch%3Fk%3Dthumbnail%2Bbackground&psig=AOvVaw28BSroQ-OWjIjeanaA4CU_&ust=1754206207564000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCMjGnMTN644DFQAAAAAdAAAAABBB" target="_blank" title="Image 3 Full Size">
+            <img src="https://t4.ftcdn.net/jpg/04/83/93/81/360_F_483938185_LeH5ySfRClEUKNbbSDVO4196v8H8ZRoS.jpg" alt="Thumbnail 3" />
+        </a>
+
+        <!-- Thumbnail 4 -->
+        <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Funsplash.com%2Fs%2Fphotos%2Fyoutube-thumbnail&psig=AOvVaw28BSroQ-OWjIjeanaA4CU_&ust=1754206207564000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCMjGnMTN644DFQAAAAAdAAAAABA2" target="_blank" title="Image 4 Full Size">
+            <img src="https://plus.unsplash.com/premium_photo-1668130718429-7abf7b186f2f?fm=jpg&q=60&w=3000&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8eW91dHViZSUyMHRodW1ibmFpbHxlbnwwfHwwfHx8MA%3D%3D" alt="Thumbnail 4" />
+        </a>
+
+        <!-- Thumbnail 5 -->
+        <a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.figma.com%2Fcommunity%2Ffile%2F1384610887134760690%2Ftech-thumbnailsyoutube&psig=AOvVaw28BSroQ-OWjIjeanaA4CU_&ust=1754206207564000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCMjGnMTN644DFQAAAAAdAAAAABBM" target="_blank" title="Image 5 Full Size">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHvKnwO4o06B7MgtgP-k4CUz24xy-5siK7dw&s" alt="Thumbnail 5" />
+        </a>
+    </div>
+
+</body>
+</html>
+
