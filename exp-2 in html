@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Lists Example</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 30px;
+        }
+        h2 {
+            color: #2c3e50;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Demonstrating HTML Lists</h1>
+
+    <!-- Ordered List -->
+    <h2>1. Ordered List</h2>
+    <ol>
+        <li>Introduction to HTML</li>
+        <li>Basic Tags</li>
+        <li>Lists in HTML</li>
+        <li>Forms and Inputs</li>
+    </ol>
+
+    <!-- Unordered List -->
+    <h2>2. Unordered List</h2>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>Python</li>
+    </ul>
+
+    <!-- Nested Lists -->
+    <h2>3. Nested Lists</h2>
+    <ul>
+        <li>Frontend
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ul>
+        </li>
+        <li>Backend
+            <ul>
+                <li>Node.js</li>
+                <li>Python</li>
+            </ul>
+        </li>
+    </ul>
+
+    <!-- Ordered List inside Unordered List -->
+    <h2>4. Ordered List inside an Unordered List</h2>
+    <ul>
+        <li>Steps to Create a Web Page:
+            <ol>
+                <li>Create an HTML file</li>
+                <li>Add basic structure</li>
+                <li>Insert content using tags</li>
+                <li>Style with CSS</li>
+            </ol>
+        </li>
+        <li>Publish it online</li>
+    </ul>
+
+    <!-- Definition List -->
+    <h2>5. Definition List</h2>
+    <dl>
+        <dt>HTML</dt>
+        <dd>HyperText Markup Language used for creating webpages.</dd>
+        
+        <dt>CSS</dt>
+        <dd>Cascading Style Sheets used to style HTML elements.</dd>
+        
+        <dt>JavaScript</dt>
+        <dd>A programming language used to add interactivity to websites.</dd>
+    </dl>
+
+</body>
+</html>
